@@ -27,6 +27,7 @@ if status1 and status2 then
     map("n", "<leader>2", function() harpoon_ui.nav_file(2) end)
     map("n", "<leader>3", function() harpoon_ui.nav_file(3) end)
     map("n", "<leader>4", function() harpoon_ui.nav_file(4) end)
+    map("n", "<leader>5", function() harpoon_ui.nav_file(4) end)
 else 
   print ("Harpoon not found")
 end
@@ -45,6 +46,7 @@ map("n", "<leader>ww", "<CMD>x<CR>")
 
 -- Quit
 map("n", "<leader>q", "<CMD>q<CR>")
+map("n", "<leader>qq", "<CMD>q!<CR>")
 
 -- Exit insert mode
 map("i", "jk", "<ESC>")
@@ -80,3 +82,4 @@ map("n", "<C-Left>", "<C-w><")
 map("n", "<C-Right>", "<C-w>>")
 map("n", "<C-Up>", "<C-w>+")
 map("n", "<C-Down>", "<C-w>-")
+

@@ -51,7 +51,6 @@ return require("packer").startup(function(use)
         requires = { { "nvim-lua/plenary.nvim" } },
     })
 
-
        -- Mason: Portable package manager
     use({
         "williamboman/mason.nvim",
@@ -59,7 +58,6 @@ return require("packer").startup(function(use)
             require("mason").setup()
         end,
     })
-
     
     -- File manager
     use({
@@ -72,6 +70,16 @@ return require("packer").startup(function(use)
         },
     })
 
+    -- Neovim Surround
+    use({
+        "kylechui/nvim-surround",
+        tag = "*", -- Use for stability; omit to use `main` branch for the latest features
+        config = function()
+            require("nvim-surround").setup({
+                -- Configuration here, or leave empty to use defaults
+            })
+        end
+    })
     -- Show colors
     use({
         "norcalli/nvim-colorizer.lua",

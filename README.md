@@ -1,3 +1,3 @@
-# Dot Files
+# Dotfiles
 
 1. [Neovim](./nvim)
