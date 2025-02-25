@@ -20,6 +20,9 @@ return require("packer").startup(function(use)
 
     -- Harpoon
     use("theprimeagen/harpoon")
+
+    -- Yazi
+    use("mikavilpas/yazi.nvim")
   
     -- Statusline
     use({
