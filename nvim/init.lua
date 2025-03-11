@@ -3,7 +3,7 @@ require("plugins")
 require("maps")
 
 
--- colorscheme config: kanagawa
+--[[ colorscheme config: kanagawa
 local themeStatus, kanagawa = pcall(require, "kanagawa")
 
 if themeStatus then
@@ -11,5 +11,4 @@ if themeStatus then
 else
   return
 end
-
-
+]]
