@@ -6,6 +6,7 @@ alias fishs="source ~/.config/fish/config.fish && echo Source Fish config ... OK
 alias nvimc="cd ~/.config/nvim && nvim"
 alias ghosttyc="nvim ~/.config/ghostty/config"
 
-zoxide init fish | source
-
+# Exports
 set -gx VCPKG_ROOT $HOME/vcpkg
+
+zoxide init fish | source
