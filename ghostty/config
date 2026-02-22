@@ -48,11 +48,12 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 
-theme = Citruszest
-# theme = Duckbones
+#theme = Citruszest
+#theme = Duckbones
 # theme = Framer
+theme = Kanagawa Wave
 
 window-width = 155
 window-height = 42
 custom-shader = shaders/cursor_warp.glsl
-background-opacity = 0.97
+background-opacity = 0.99
